@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #6f6f6f;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+/*header*/
+
+header {
+ width: 940px;
+ margin: auto;
+ position: relative;
+}
+
+header li {
+  float: left;
+}
+
+h1 {
+  width: 54px;
+  margin: 17px auto 10px;
+
+}
+
+
+.quickBanner {
+overflow: hidden;
+position: absolute;
+top: 0;
+left:0;
+}
+
+.quickBanner li {
+  margin-top: 21px;
+  margin-right: 10px;
+}
+
+.quickBanner li:first-child {
+  margin-top: 0;
+  margin-right: 7px;
+}
+
+
+
+.util {
+overflow: hidden;
+position: absolute;
+top: 17px;
+right: 0;
+}
+
+.util li {
+  margin-left: 10px;
+}
+
+.util a {
+  font-size: 12px;
+}
+
+.gnb {
+overflow: hidden;
+}
+
+.gnb li {
+  width: 156px;
+  height: 60px;
+  text-align: center;
+
+}
+
+.gnb a {
+font-weight: bold;
+font-size: 18px;
+color: black;
+display: block;
+padding:15px 0 3px;
+
+}
+
+.gnb li span {
+  opacity: 0;
+  font-size: 12px;
+}
+
+.gnb:hover span {
+ opacity: 1;
+}
+
+.gnb li:hover {
+  background-color: #ba000c;
+}
+
+.gnb li:hover span {
+  color: white;
+}
+.gnb li:hover a {
+  color: white;
+}
+
+
+/*slide*/
+
+#slide {
+  width: 100%;
+  overflow: hidden;
+  border-top: 2px solid  #ba000c;
+}
+
+#slide img {
+width: 100%;
+
+}
+
+
+/*content*/
+#content {
+  width: 940px;
+  margin: 30px auto;
+}
+
+
+.con1 {
+overflow: hidden;
+margin-bottom: 30px;
+}
+
+.con1 article {
+  float:left;
+  width: 32%;
+  margin-right: 2%;
+  height: 300px;
+  background-color: yellow;
+}
+
+.con1 article:last-child {
+  margin-right: 0;
+}
+
+.con2 {
+overflow: hidden;
+}
+
+.con2 article {
+  float:left;
+  width: 49%;
+  margin-right: 2%;
+  height: 200px;
+  background-color: gray;
+
+}
+
+.con2 article:last-child {
+  margin-right: 0;
+}
+
+
+
+/*footer*/
+
+footer {
+  background-color: #ba000c;
+  height: 115px;
+  padding-top: 30px;
+
+}
+
+footer ul {
+
+  overflow: hidden;
+  width: 940px;
+  margin: auto;
+}
+
+footer li {
+  float: left;
+  margin-right:7px;
+}
+
+footer a {
+  color: white;
+ font-size: 12px;
+}
+
+
+footer p {
+  width: 940px;
+  margin: auto;
+  margin-top: 30px;
+  color: rgba(255,255,255,.5);
+  font-size: 12px;
+}
